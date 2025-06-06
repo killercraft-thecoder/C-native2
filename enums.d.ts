@@ -1,5 +1,5 @@
 // Matrix Operations Enum
-enum MatrixOp {
+declare enum MatrixOp {
     SUM,
     ADD,
     SUB,
