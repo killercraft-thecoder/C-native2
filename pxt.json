@@ -6,7 +6,12 @@
     },
     "files": [
         "main.blocks",
-        "main.ts",
+        "code.ts",
+        "code.cpp",
+        "enums.d.ts",
+        "shims.d.ts",
+        "targetoverrides.ts",
+        "test.ts",
         "README.md",
         "assets.json"
     ],
