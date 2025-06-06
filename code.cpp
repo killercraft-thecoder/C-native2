@@ -1,8 +1,8 @@
 #include "pxt.h"
 using namespace pxt;
-
+extern "C" {
 namespace Matrix {
-
+    
     // Sum of all elements
     //%
     int sum(RefCollection* matrix) {
@@ -83,4 +83,5 @@ namespace Matrix {
         }
         return result;
     }
+}
 }
